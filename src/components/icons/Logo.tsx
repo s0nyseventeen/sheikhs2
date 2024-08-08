@@ -1,0 +1,3 @@
+interface LogoColor {
+  color: string;
+}
