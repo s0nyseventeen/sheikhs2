@@ -1,8 +1,10 @@
+import Logo from "./icons/Logo";
+
 export default function Header() {
   return (
-    <div className="flex justify-between items-center">
+    <div className="flex justify-between items-center py-5">
       <a href="#" className="ml-5">
-        Logo
+        <Logo color={"royalblue"} />
       </a>
       <nav>
         <ul className="flex items-center gap-12">
