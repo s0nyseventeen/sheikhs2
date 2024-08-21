@@ -17,8 +17,10 @@ describe("Header", () => {
     expect(screen.getByTestId("mockedLogo")).toBeInTheDocument();
   });
 
-  it("renders Language link", () => {
-    expect(screen.getByText("Language")).toBeInTheDocument();
+  it("renders language link with CiGlobe icon", () => {
+    const languageLink = screen.getByText("UA").closest("a");
+    expect(languageLink).toBeInTheDocument();
+    expect(languageLink.querySelector("svg")).toBeInTheDocument();
   });
 
   it("renders navigation links", () => {

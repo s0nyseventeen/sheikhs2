@@ -1,3 +1,5 @@
+import { CiGlobe } from "react-icons/ci";
+
 import Logo from "./icons/Logo";
 
 export default function Header() {
@@ -20,7 +22,10 @@ export default function Header() {
         </ul>
       </nav>
       <div className="mr-5">
-        <a href="#">Language</a>
+        <a href="#" className="flex items-center gap-1">
+          <CiGlobe size={16} />
+          <span>UA</span>
+        </a>
       </div>
     </div>
   );
