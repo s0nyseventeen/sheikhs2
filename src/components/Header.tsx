@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <div className="flex justify-between items-center py-5">
       <a href="#" className="ml-5">
-        <Logo color={"royalblue"} />
+        <Logo color={"#1C1C1C"} />
       </a>
       <nav>
         <ul className="flex items-center gap-12">
