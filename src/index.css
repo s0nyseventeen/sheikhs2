@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "eukrThin";
+  src: url("./assets/fonts/e-Ukraine-Thin.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -15,4 +20,5 @@
 
 html {
   box-sizing: border-box;
+  font-family: "eukrThin", sans-serif;
 }
