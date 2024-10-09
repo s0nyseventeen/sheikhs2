@@ -1,3 +1,4 @@
+import CompanyVideo from "./components/CompanyVideo";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 
@@ -10,6 +11,9 @@ function App() {
       <hr />
       <div className="container mx-auto">
         <Hero />
+      </div>
+      <div>
+        <CompanyVideo />
       </div>
     </>
   );
