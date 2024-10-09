@@ -7,6 +7,11 @@
   src: url("./assets/fonts/e-Ukraine-Thin.ttf");
 }
 
+@font-face {
+  font-family: "eukrBold";
+  src: url("./assets/fonts/e-Ukraine-Bold.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
