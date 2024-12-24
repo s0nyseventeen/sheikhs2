@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import ResponsivePlayer from "./components/ResponsivePlayer";
 
 function App() {
   return (
@@ -8,8 +9,11 @@ function App() {
         <Header />
       </div>
       <hr />
-      <div className="container mx-auto">
+      <div className="container mx-auto mb-28">
         <Hero />
+      </div>
+      <div className="h-[900px]">
+        <ResponsivePlayer />
       </div>
     </>
   );
