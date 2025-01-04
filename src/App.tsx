@@ -12,7 +12,7 @@ function App() {
       <div className="container mx-auto mb-28">
         <Hero />
       </div>
-      <div className="h-[900px]">
+      <div className="mb-32">
         <ResponsivePlayer />
       </div>
     </>
