@@ -16,7 +16,7 @@ function App() {
       <div className="mb-32">
         <ResponsivePlayer />
       </div>
-      <div className="container mx-auto">
+      <div className="container mx-auto mb-28">
         <Statistics />
       </div>
     </>
