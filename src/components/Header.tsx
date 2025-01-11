@@ -10,20 +10,23 @@ export default function Header() {
       </a>
       <nav>
         <ul className="flex items-center gap-12">
-          <li>
-            <a href="#">Про шейхів</a>
-          </li>
-          <li>
-            <a href="#">Портфоліо</a>
-          </li>
-          <li>
-            <a href="#">Наші послуги</a>
-          </li>
+          {["Про шейхів", "Портфоліо", "Наші послуги"].map((link, index) => (
+            <li key={index}>
+              <a href="#" className="hover:text-gray-600 transition">
+                {link}
+              </a>
+            </li>
+          ))}
         </ul>
       </nav>
-      <div className="mr-5">
-        <a href="#" className="flex items-center gap-1">
-          <CiGlobe size={16} />
+      <div>
+        <a
+          href="#"
+          className="flex items-center gap-1 hover:text-gray-600 transition"
+        >
+          <span>
+            <CiGlobe size={16} />
+          </span>
           <span>UA</span>
         </a>
       </div>
