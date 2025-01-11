@@ -6,9 +6,9 @@ import Statistics from "./components/Statistics";
 function App() {
   return (
     <>
-      <div className="container mx-auto">
+      <header className="container mx-auto">
         <Header />
-      </div>
+      </header>
       <hr />
       <div className="container mx-auto mb-28">
         <Hero />
