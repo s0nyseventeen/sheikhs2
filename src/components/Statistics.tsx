@@ -18,20 +18,28 @@ export default function Statistics() {
   ];
 
   return (
-    <div className="flex justify-center items-center content-around gap-36">
-      {stats.map((stat, idx) => (
-        <StatisticsItem key={idx} {...stat} />
-      ))}
-    </div>
+    <section className="container mx-auto mb-28">
+      <div className="flex justify-center items-center gap-24">
+        {stats.map((stat, idx) => (
+          <StatisticsItem key={idx} {...stat} />
+        ))}
+      </div>
+    </section>
   );
 }
 
 function StatisticsItem({ icon, number, text }: StatisticsItemProps) {
   return (
-    <div className="flex flex-col gap-2 items-center max-w-20 text-center">
+    <div className="flex flex-col items-center text-center gap-2">
       <div>{icon}</div>
       <p>{number}</p>
-      <p>{text}</p>
+      <p>
+        {text.split(" ").map((line, index) => (
+          <span key={index} className="block">
+            {line}
+          </span>
+        ))}
+      </p>
     </div>
   );
 }
