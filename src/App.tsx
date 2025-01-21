@@ -8,9 +8,7 @@ function App() {
     <>
       <Header />
       <hr />
-      <div className="container mx-auto mb-28">
-        <Hero />
-      </div>
+      <Hero />
       <div className="mb-32">
         <ResponsivePlayer />
       </div>
