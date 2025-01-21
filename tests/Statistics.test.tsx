@@ -19,11 +19,9 @@ describe("Statistics", () => {
     render(<Statistics />);
   });
 
-  it("renders the correct number of StatisticsItem component items", () => {
-    const items = screen.getAllByText(
-      /виконаних замовлень|унікальних дизайнів|задоволених клієнтів/,
-    );
-    expect(items).toHaveLength(3);
+  it("renders the correct number of StatisticsItem components", () => {
+    const statItems = screen.getAllByText(/замовлень|дизайнів|клієнтів/);
+    expect(statItems).toHaveLength(3);
   });
 
   it("renders icons for each statistics", () => {
