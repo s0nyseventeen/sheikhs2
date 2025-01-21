@@ -9,9 +9,7 @@ function App() {
       <Header />
       <hr />
       <Hero />
-      <div className="mb-32">
-        <ResponsivePlayer />
-      </div>
+      <ResponsivePlayer />
       <Statistics />
     </>
   );
