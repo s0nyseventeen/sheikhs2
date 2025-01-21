@@ -1,6 +1,6 @@
 import ReactPlayer from "react-player/vimeo";
 
-export default function ResponsivePlayer() {
+export default function CompanyVideo() {
   return (
     <div className="mb-32">
       <div className="relative pt-[56.25%]">

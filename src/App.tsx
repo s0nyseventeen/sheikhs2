@@ -1,6 +1,6 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import ResponsivePlayer from "./components/ResponsivePlayer";
+import CompanyVideo from "./components/CompanyVideo";
 import Statistics from "./components/Statistics";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <>
       <Header />
       <Hero />
-      <ResponsivePlayer />
+      <CompanyVideo />
       <Statistics />
     </>
   );
