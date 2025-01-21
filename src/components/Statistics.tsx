@@ -18,11 +18,13 @@ export default function Statistics() {
   ];
 
   return (
-    <div className="flex justify-center items-center content-around gap-36">
-      {stats.map((stat, idx) => (
-        <StatisticsItem key={idx} {...stat} />
-      ))}
-    </div>
+    <section className="container mx-auto mb-28">
+      <div className="flex justify-center items-center content-around gap-36">
+        {stats.map((stat, idx) => (
+          <StatisticsItem key={idx} {...stat} />
+        ))}
+      </div>
+    </section>
   );
 }
 
